@@ -98,7 +98,7 @@ function pg2func(op){
     var btn2 = document.getElementById("btn2");
     btn2.style = "position: absolute;top: 177px;left: 192px;height: 43px;background: transparent;width: 78px;border-radius: 2%;border: 1px solid transparent;";
     btn2.onclick= function(){
-        APICall("page2leftkey1"); 
+        APICall("page2leftkey3"); 
         op.src = imges[2];
         pg3func(op);
     };
@@ -118,7 +118,7 @@ function pg3func(op){
     var btn1 = document.getElementById("btn1");
     btn1.style = "position: absolute;top: 177px;left: 56px;height: 43px;background: transparent;width: 78px;border-radius: 2%;border: 1px solid transparent;";
     btn1.onclick= function(){
-        APICall("page1"); 
+        APICall("page2rightkey2"); 
         op.src = imges[1];
         pg2func(op);
     };
