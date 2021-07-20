@@ -6,7 +6,7 @@ var landing_page = "https://clientefavoritofordsp.com/?utm_source=NBIDS&utm_medi
 
 var output = document.getElementById('output');
 openfile(imges[0]);
-
+pg1func(output);
 
 // adding Event Listener
 document.getElementById("output").addEventListener('click', function() {
